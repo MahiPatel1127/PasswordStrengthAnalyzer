@@ -21,3 +21,21 @@ A Java-based cybersecurity project that analyzes password strength and identifie
 - Loops
 - Methods
 - String handling
+
+## How It Works
+The program asks the user to enter a username and password. It then checks the password against several security criteria.
+
+The program checks:
+1. Password length
+2. Uppercase letters
+3. Lowercase letters
+4. Numbers
+5. Special characters
+6. Commonly used passwords
+7. Sequential numbers
+8. Repeated characters
+9. Similarity between the username and password
+
+Each basic security requirement adds to the password score, while some weaknesses reduce the score. The final score is used to classify the password as Weak, Medium, or Strong.
+
+The program also provides recommendations to help the user improve a weak password.
