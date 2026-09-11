@@ -12,3 +12,12 @@ A Java-based cybersecurity project that analyzes password strength and identifie
 - Calculates a password score out of 5
 - Classifies passwords as Weak, Medium, or Strong
 - Provides recommendations to improve password security
+
+## Technologies Used
+- Java
+- Java Scanner
+- Object-oriented programming concepts
+- Conditional statements
+- Loops
+- Methods
+- String handling
