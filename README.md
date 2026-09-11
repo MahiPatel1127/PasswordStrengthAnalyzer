@@ -129,3 +129,7 @@ mahi
 
 Enter your password:
 Hello@9xTq
+
+## Project Structure
+```text
+PasswordStrengthAnalyzer/ -> PasswordStrengthAnalyzer.java
