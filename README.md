@@ -39,3 +39,27 @@ The program checks:
 Each basic security requirement adds to the password score, while some weaknesses reduce the score. The final score is used to classify the password as Weak, Medium, or Strong.
 
 The program also provides recommendations to help the user improve a weak password.
+
+## Password Scoring
+The password starts with a score of 0.
+
+### Points Added
+- +1 for having at least 8 characters
+- +1 for having an uppercase letter
+- +1 for having a lowercase letter
+- +1 for having a number
+- +1 for having a special character
+
+### Points Deducted
+- -1 for containing sequential numbers such as 123
+- -1 for containing repeated characters such as aaa or 111
+- -1 for being similar to the username
+
+The final score is between 0 and 5.
+
+### Password Strength
+- 0-2 : Weak
+- 3-4 : Medium
+- 5 : Strong
+
+A commonly used password is always classified as "Weak" , even if it meets other requirements.
