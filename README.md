@@ -63,3 +63,43 @@ The final score is between 0 and 5.
 - 5 : Strong
 
 A commonly used password is always classified as "Weak" , even if it meets other requirements.
+
+## Example Output / Testing
+The program was tested with different types of passwords.
+
+### Strong Password
+Username: mahi  
+Password: Hello@9xTq
+
+Result:
+- Score: 5/5
+- Strength: STRONG
+- No security weaknesses detected
+
+### Medium Password
+Username: mahi  
+Password: Hello123!
+
+Result:
+- Score: 4/5
+- Strength: MEDIUM
+- Sequential number pattern detected
+
+### Weak Password
+Username: mahi  
+Password: password
+
+Result:
+- Score: 2/5
+- Strength: WEAK
+- Common password detected
+- Missing uppercase letter, number, and special character
+
+### Username Similarity Test
+Username: mahi  
+Password: Mahi123!
+
+Result:
+- Score: 3/5
+- Username similarity detected
+- Sequential number pattern detected
