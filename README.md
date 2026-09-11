@@ -133,3 +133,17 @@ Hello@9xTq
 ## Project Structure
 ```text
 PasswordStrengthAnalyzer/ -> PasswordStrengthAnalyzer.java
+
+## What I Learned
+
+Through this project, I learned how to:
+
+- Use Java methods to organize code
+- Use loops and conditional statements
+- Work with strings and characters
+- Use arrays to store and compare data
+- Take user input using the Scanner class
+- Build a simple password scoring system
+- Identify common password security weaknesses
+- Test a program using different inputs
+- Improve code by breaking larger tasks into separate methods
