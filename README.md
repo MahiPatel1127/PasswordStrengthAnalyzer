@@ -103,3 +103,29 @@ Result:
 - Score: 3/5
 - Username similarity detected
 - Sequential number pattern detected
+
+## How To Run
+
+### 1. Clone the repository 
+Clone this repository to your computer using Git.
+
+### 2. Open the project
+Open the project folder in VS Code or another Java-supported IDE.
+
+### 3. Compile the program
+Open the terminal in the project folder and run:
+javac PasswordStrengthAnalyzer.java
+
+### 4. Run the program
+Run:
+java PasswordStrengthAnalyzer
+
+### 5. Enter your username and password 
+After running the program, enter your username and password when prompted in the terminal.
+Example:
+
+Enter your username:
+mahi
+
+Enter your password:
+Hello@9xTq
