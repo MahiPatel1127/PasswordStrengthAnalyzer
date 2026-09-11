@@ -1,5 +1,5 @@
 # Password Strength Analyzer 
-A Java-based cybersecurity project that analyzes password strength and identifies common password weakness.
+A Java-based cybersecurity project that analyzes password strength and identifies common password weaknesses.
 
 ## Features
 - Checks password length
@@ -58,9 +58,9 @@ The password starts with a score of 0.
 The final score is between 0 and 5.
 
 ### Password Strength
-- 0-2 : Weak
-- 3-4 : Medium
-- 5 : Strong
+- **0-2** : Weak
+- **3-4** : Medium
+- **5** : Strong
 
 A commonly used password is always classified as "Weak" , even if it meets other requirements.
 
@@ -114,11 +114,17 @@ Open the project folder in VS Code or another Java-supported IDE.
 
 ### 3. Compile the program
 Open the terminal in the project folder and run:
+```bash
 javac PasswordStrengthAnalyzer.java
+```
 
 ### 4. Run the program
+```markdown
 Run:
+```
+```bash
 java PasswordStrengthAnalyzer
+```
 
 ### 5. Enter your username and password 
 After running the program, enter your username and password when prompted in the terminal.
@@ -151,7 +157,7 @@ Through this project, I learned how to:
 
 ## Future Improvements
 Possible improvements for future versions include:
-- Add a large database of commonly used password
+- Add a large database of commonly used passwords
 - Detect more password patterns and weak combinations
 - Add a graphical user interface (GUI)
 - Improve the password similarity detection
