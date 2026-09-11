@@ -133,6 +133,7 @@ Hello@9xTq
 ## Project Structure
 ```text
 PasswordStrengthAnalyzer/ -> PasswordStrengthAnalyzer.java
+```
 
 ## What I Learned
 
@@ -147,3 +148,11 @@ Through this project, I learned how to:
 - Identify common password security weaknesses
 - Test a program using different inputs
 - Improve code by breaking larger tasks into separate methods
+
+## Future Improvements
+Possible improvements for future versions include:
+- Add a large database of commonly used password
+- Detect more password patterns and weak combinations
+- Add a graphical user interface (GUI)
+- Improve the password similarity detection
+- Add more detailed password security recommendations
