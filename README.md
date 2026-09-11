@@ -104,6 +104,9 @@ Result:
 - Username similarity detected
 - Sequential number pattern detected
 
+### Program Output
+![Password Strength Analyzer Output](image.png)
+
 ## How To Run
 
 ### 1. Clone the repository 
